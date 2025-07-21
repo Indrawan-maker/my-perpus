@@ -1,4 +1,5 @@
 export default function BookList({ books }) {
+
     return (
         <div className="container mx-auto px-12 py-8">
             <div className="grid grid-cols-3 gap-6">
@@ -11,8 +12,10 @@ export default function BookList({ books }) {
                         <h3 className="font-semibold text-slate-800 text-lg leading-tight mb-2">{book.title}</h3>
                         </div>
                     </div>
-                    <div className="flex items-center gap-2 text-slate-600">
+
+                    <div className="flex items-center gap-82 text-slate-600">
                         <p className="text-sm">{book.author}</p>
+                    <span className="justify-between hover:text-red-600 transition-all cursor-pointer leading-tight">Remove</span>
                     </div>
                 </div>
             )

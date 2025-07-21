@@ -5,6 +5,7 @@ import images from "../assets/n5.png"
 export default function AddBookForm({ onAdd }) {
     const [title, setTitle] = useState('')
     const [author, setAuthor] = useState('')
+    const [remove, setRemove] = useState('x')
 
 
     const handleSubmit = (e) => {
@@ -19,10 +20,9 @@ export default function AddBookForm({ onAdd }) {
                 imageAlt: "Custom image"
             }); return
         }
-        onAdd({ title, author })
+        onAdd({ title, author})
         setTitle('')
         setAuthor('')
-        
     }
 
     return (
