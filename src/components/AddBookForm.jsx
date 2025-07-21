@@ -15,7 +15,7 @@ export default function AddBookForm({ onAdd }){
 
     return (
         <div className='bg-white shadow-sm border-b border-slate-200'>
-            <div className='container mx-auto px-4  py-6'>
+            <div className='container mx-auto px-12  py-6'>
             <form onSubmit={handleSubmit}>
                 <div className='flex flex-col sm:flex-row gap-4'>
                     <div className='flex-1'>
@@ -47,5 +47,4 @@ export default function AddBookForm({ onAdd }){
                     </div>
         </div>
     )
-
 }

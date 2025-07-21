@@ -1,6 +1,6 @@
 export default function BookList({ books }) {
     return (
-        <div className="container mx-auto px-6 py-8">
+        <div className="container mx-auto px-12 py-8">
             <div className="grid grid-cols-3 gap-6">
             {books.map((book, index) => 
             (

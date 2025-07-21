@@ -2,6 +2,7 @@ import Header from './components/Header'
 import BookList from './components/BookList'
 import { useEffect, useState } from 'react'
 import AddBookForm from './components/AddBookForm'
+import SearchBook from './components/SearchBook'
 
 function App() {
 
@@ -10,23 +11,22 @@ function App() {
     return savedBook ? JSON.parse(savedBook) : []
   })
 
+  const [query, setQuery] = useState('')
+
   useEffect(() => {
     localStorage.setItem('books', JSON.stringify(books))
   },[books])
-// pr tambahkan styling sebagus mungkin
-// // dan tambahkan gambar buku
-//   useEffect(() => {
-//     const sampleBooks = [
-//         {title:"Hujan", author: "Tere Liye"},
-//       {title:"Atomic Habits", author: "James Clear"},
-//         {title:"How to Wins Friend", author: "Dale Carneige"}
-//     ]
-//     setBooks(sampleBooks)
-//   },[])
 
   const AddBook = (book) => {
     setBooks([...books, book])
   }
+
+
+
+// handle pencarian lower cases semua
+  const filteredBooks = books.filter((book) =>
+    book.title.toLowerCase().includes(query.toLowerCase())
+  )
 
   return (
   <>
@@ -35,7 +35,11 @@ function App() {
     <AddBookForm 
     onAdd={AddBook}
     />
-    <BookList books={books}/>
+    <SearchBook 
+    query={query}
+    setQuery={setQuery}
+    />
+    <BookList books={filteredBooks}/>
     </div>
     </>
   )
