@@ -32,10 +32,10 @@ function App() {
   <>
     <div>
     <Header />
-    <BookList books={books}/>
     <AddBookForm 
     onAdd={AddBook}
     />
+    <BookList books={books}/>
     </div>
     </>
   )
