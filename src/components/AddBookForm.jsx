@@ -15,8 +15,9 @@ export default function AddBookForm({ onAdd }) {
                 title: "Tolong isi Input!",
                 text: "Masukan judul buku dan penulis.",
                 imageUrl: images,
-                imageWidth: 250,
-                imageHeight: 250,
+                imageWidth: 260,
+                width: '350px',
+                height: '100px',
                 imageAlt: "Custom image"
             }); return
         }
