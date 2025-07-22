@@ -1,8 +1,8 @@
-export default function BookList({ books }) {
+export default function BookList({ books, onClick }) {
 
     return (
-        <div className="container mx-auto px-12 py-8">
-            <div className="grid grid-cols-3 gap-6">
+        <div className="container mx-auto px-12 py-8 min-w-sm">
+            <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-6">
             {books.map((book, index) => 
             (
                 <div key={index} className="bg-white border-slate-200 rounded-xl shadow-sm 
@@ -13,9 +13,12 @@ export default function BookList({ books }) {
                         </div>
                     </div>
 
-                    <div className="flex items-center gap-82 text-slate-600">
+                    <div className="flex items-center justify-between gap-2 text-slate-600">
                         <p className="text-sm">{book.author}</p>
-                    <span className="justify-between hover:text-red-600 transition-all cursor-pointer leading-tight">Remove</span>
+                    <button
+                    onClick={() => onClick(index)}
+                    className="hover:text-red-600 transition-all cursor-pointer leading-tight p-2 text-sm 
+                    tracking-[1px]">Remove</button>
                     </div>
                 </div>
             )
