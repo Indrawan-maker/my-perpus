@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import AddBookForm from './components/AddBookForm'
 import SearchBook from './components/SearchBook'
 import Swal from 'sweetalert2'
+import NullSearch from './components/nullSearch'
 
 function App() {
 
@@ -11,7 +12,6 @@ function App() {
     const savedBook = localStorage.getItem('books')
     return savedBook ? JSON.parse(savedBook) : []
   })
-
   const [query, setQuery] = useState('')
 
   useEffect(() => {
@@ -46,10 +46,13 @@ function App() {
   }
 });
 }
-// handle pencarian lower cases semua
+
   const filteredBooks = books.filter((book) =>
     book.title.toLowerCase().includes(query.toLowerCase())
   )
+
+  const showNullSearch = query.length > 0 && filteredBooks.length === 0
+
 
   return (
   <>
@@ -62,9 +65,11 @@ function App() {
     query={query}
     setQuery={setQuery}
     />
+    {showNullSearch && <NullSearch
+    />}
     <BookList
-    onClick={handleRemove}
     books={filteredBooks}
+    onClick={handleRemove}
     />
     </div>
     </>
