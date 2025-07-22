@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Swal from 'sweetalert2'
-import images from "../assets/n5.png"
+import images from "../assets/n5.webp"
 
 export default function AddBookForm({ onAdd }) {
     const [title, setTitle] = useState('')
