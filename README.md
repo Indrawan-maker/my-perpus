@@ -1,12 +1,12 @@
 # **My Perpus**
 <hr>
 <br>
-adalah tempat anda bisa menyimpan buku anda
+    adalah tempat anda bisa menyimpan buku anda
 <br>
 
 <hr>
 
-**Library ygy digunakan**
+**Library yg digunakan :**
 <br>
 <br>
 -sweet alert : handle input kosong & delete file
