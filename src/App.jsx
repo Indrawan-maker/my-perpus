@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import AddBookForm from './components/AddBookForm'
 import SearchBook from './components/SearchBook'
 import Swal from 'sweetalert2'
-import NullSearch from './components/NullSearch'
+import NullSearch from './components/NullSearch.jsx'
 
 function App() {
 
