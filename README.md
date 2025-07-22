@@ -6,7 +6,7 @@
 <br>
     fitur : 
     <br>
-    -search : untuk mencari data semua buku anda
+    -   search : untuk mencari data semua buku anda
 
 <br>
 
@@ -15,4 +15,4 @@
 **Library yg digunakan :**
 <br>
 <br>
--sweet alert : handle input kosong & delete file
+-   sweet alert : handle input kosong & delete file
