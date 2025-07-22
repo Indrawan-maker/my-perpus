@@ -65,8 +65,8 @@ function App() {
     query={query}
     setQuery={setQuery}
     />
-    {showNullSearch && <NullSearch
-    />}
+    {showNullSearch ? <NullSearch
+    /> : null }
     <BookList
     books={filteredBooks}
     onClick={handleRemove}
