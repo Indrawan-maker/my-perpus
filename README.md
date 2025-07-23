@@ -6,7 +6,9 @@
 <br>
     fitur : 
     <br>
-    -   search : untuk mencari data semua buku anda
+    -   Tambah Buku : Simpan buku anda,
+    -   search : untuk mencari data semua buku anda,
+    -   hapus buku : hapus buku,
 
 <br>
 
