@@ -18,3 +18,12 @@
 <br>
 <br>
 -   sweet alert : handle input kosong & delete file
+
+
+**Teach stack :**
+<br>
+<br>
+-   Javascript
+-   React
+-   tailwindcss
+-   Vite
