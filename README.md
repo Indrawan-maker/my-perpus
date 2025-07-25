@@ -21,7 +21,6 @@
 
 <br>
 <hr>
-<br>
 
 **Teach stack :**
 <br>
