@@ -3,12 +3,17 @@
 <br>
     adalah tempat anda bisa menyimpan buku anda dengan memasukan judul buku dan nama penulis,
     akan tersimpan di web ini.
+
 <br>
+
     fitur : 
-    <br>
-    -   Tambah Buku : Simpan buku anda,
+
+
+
+    -   Tambah Buku : Simpan buku anda, 
     -   search : untuk mencari data semua buku anda,
     -   hapus : hapus buku anda
+    -   Buku tersimpan di local storage browser
 
 <br>
 
