@@ -8,7 +8,7 @@
     <br>
     -   Tambah Buku : Simpan buku anda,
     -   search : untuk mencari data semua buku anda,
-    -   hapus buku : hapus buku,
+    -   hapus : hapus buku anda
 
 <br>
 
@@ -19,11 +19,15 @@
 <br>
 -   sweet alert : handle input kosong & delete file
 
+<br>
+<hr>
+<br>
 
 **Teach stack :**
 <br>
 <br>
 -   Javascript
 -   React
--   tailwindcss
+-   Tailwindcss
 -   Vite
+<hr>
