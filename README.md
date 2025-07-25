@@ -2,8 +2,9 @@
 <hr>
 <br>
     adalah tempat anda bisa menyimpan buku anda dengan memasukan judul buku dan nama penulis,
-    akan tersimpan di web ini.
+     buku anda akan tersimpan di web ini.
 
+<br>
 <br>
 
     fitur : 
