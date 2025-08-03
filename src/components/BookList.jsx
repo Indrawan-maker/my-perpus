@@ -21,7 +21,7 @@ export default function BookList({ books, onClick }) {
                                     onClick={() => onClick(index)}
                                     className="hover:text-slate-950 transition-all cursor-pointer text-orange-500 text-sm tracking-[1px] "
                                     >
-                                    hapus
+                                    Hapus
                                 </button>
                                     </div>
                             </div>

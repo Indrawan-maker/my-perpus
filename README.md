@@ -1,3 +1,34 @@
+# **Preview**
+<hr>
+<br>
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="./preview/prev1.png" alt="Project logo">
+ </a>
+</p>
+
+<br>
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="./preview/prev2.png" alt="Project logo">
+ </a>
+</p>
+
+<br>
+
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="./preview/prev3.png" alt="Project logo">
+ </a>
+</p>
+
+
+<br>
+<br>
+<hr>
+
 # **My Perpus**
 <hr>
 <br>
