@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="./preview/prev1.png" alt="Project logo">
+ <img width=200px height=200px src="./src/assets/preview/prev1.png" alt="Project logo">
  </a>
 </p>
 
@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="./preview/prev2.png" alt="Project logo">
+ <img width=200px height=200px src="./src/assets//preview/prev2.png" alt="Project logo">
  </a>
 </p>
 
@@ -20,7 +20,7 @@
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="./preview/prev3.png" alt="Project logo">
+ <img width=200px height=200px src="./src/assets//preview/prev3.png" alt="Project logo">
  </a>
 </p>
 
